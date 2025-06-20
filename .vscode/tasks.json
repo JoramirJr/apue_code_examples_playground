@@ -9,6 +9,8 @@
         "-Wall",
         "-g",
         "${file}",
+        "-I${workspaceFolder}/apue.3e/include",
+        "${workspaceFolder}/apue.3e/lib/libapue.a",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}"
       ],
@@ -17,7 +19,7 @@
         "isDefault": true
       },
       "problemMatcher": ["$gcc"],
-      "detail": "Compile C file using gcc"
+      "detail": "Build APUE C file with apue.h and libapue.a"
     }
   ]
 }

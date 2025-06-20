@@ -1,4 +1,9 @@
+#define _XOPEN_SOURCE 600
+#define _GNU_SOURCE
+#define _BSD_SOURCE
+
 #include "apue.h"
+#include <sys/sysmacros.h>
 #ifdef SOLARIS
 #include <sys/mkdev.h>
 #endif
