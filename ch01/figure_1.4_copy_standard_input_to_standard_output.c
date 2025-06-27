@@ -1,6 +1,6 @@
 #include "apue.h"
 
-#define BUFFSIZE 4096
+#define BUFFSIZE 4
 
 int main(void) {
     int n;
